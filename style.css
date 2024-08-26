@@ -69,7 +69,7 @@ input:focus {
 .logo__wordmark {
     position: relative;
     margin-left: 0.3em;
-    font: bold calc(0.714vw + 29.714px) Roboto, sans-serif;
+    font: bold calc(1.408451vw + 19.718px) Roboto, sans-serif;
     line-height: 1;
 }
 .logo__admin-label {
