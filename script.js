@@ -3,7 +3,7 @@ class Model {
     static calculateFlexibleSize(width1, width2, value1, value2) {
         const x = (value1 - value2) / (width1 / 100 - width2 / 100);
         const pixels = value1 - (x * width1 / 100);
-        return [parseFloat(x.toFixed(3)), parseFloat(pixels.toFixed(3))];
+        return [parseFloat(x.toFixed(6)), parseFloat(pixels.toFixed(3))];
     }
     static generateFlexibleCode(x, pixels) {
         this.operativeCode = `calc(${x}vw + ${pixels}px)`;
