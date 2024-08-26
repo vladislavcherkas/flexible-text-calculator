@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#001119">
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js"></script>
+    <title>Flexible text</title>
+</head>
+<body class="page">
+    <div class="header">
+        <div class="header__wrap">
+            <div class="logo">
+                <div class="logo__logomark">
+                    <img src="../images/logo.png" alt="Logo" class="logo__img">
+                </div>
+                <div class="logo__wordmark">
+                    <span>flexible text</span>
+                    <div class="logo__admin-label logo__admin-label_absent">admin</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page__capsule">
+        <div class="home">
+            <div class="home__intro">
+                <div class="home__wrap-of-intro">
+                    <div class="home__frame">
+                        <div class="home__title">Screen width range</div>
+                        <div class="home__search-wrap">
+                            <div class="search">
+                                <div class="search__wrap">
+                                    <div class="search__icon">
+                                        <img src="../images/del.png" alt="Search" class="search__img" id="width1-drop">
+                                    </div>
+                                    <input id="width1" type="number" class="search__input" placeholder="Width 1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home__search-wrap">
+                            <div class="search">
+                                <div class="search__wrap">
+                                    <div class="search__icon">
+                                        <img src="../images/del.png" alt="Search" class="search__img" id="width2-drop">
+                                    </div>
+                                    <input id="width2" type="number" class="search__input" placeholder="Width 2">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home__title">Range of property values</div>
+                        <div class="home__search-wrap">
+                            <div class="search">
+                                <div class="search__wrap">
+                                    <div class="search__icon">
+                                        <img src="../images/del.png" alt="Search" class="search__img" id="value1-drop">
+                                    </div>
+                                    <input id="value1" type="number" class="search__input" placeholder="Value 1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home__search-wrap">
+                            <div class="search">
+                                <div class="search__wrap">
+                                    <div class="search__icon">
+                                        <img src="../images/del.png" alt="Search" class="search__img" id="value2-drop">
+                                    </div>
+                                    <input id="value2" type="number" class="search__input" placeholder="Value 2">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home__answer" id="answer">calc()</div>
+                        <div class="home__button-wrap">
+                            <button class="button button_dim" id="delete">Clear</button>
+                            <span class="separator"></span>
+                            <button class="button button_narrow" id="run">
+                                <img class="button__icon" src="images/run.png" alt="copy">
+                            </button>
+                            <span class="separator"></span>
+                            <button class="button" id="copy">
+                                <span>Copy</span>
+                                <span class="separator"></span>
+                                <img class="button__icon" src="images/copy.png" alt="copy">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer__wrap">
+            <a href="./home.html" class="footer__logo-wrap">
+                <div class="logo logo_dark">
+                    <div class="logo__logomark">
+                        <img src="../images/logo.png" alt="Logo" class="logo__img">
+                    </div>
+                    <div class="logo__wordmark">
+                        <span>flexible text</span>
+                        <div class="logo__admin-label logo__admin-label_absent">admin</div>
+                    </div>
+                </div>
+            </a>
+            <div class="footer__сopyright">© 2023 - All rights reserved</div>
+        </div>
+    </div>
+</body>
+</html>
